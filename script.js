@@ -43,3 +43,19 @@ console.log("My fun number is: " + funNumber);
 let user = "Ms. Walyer"
 let message = "walcome " + user + "!";
 console.log(message);
+
+/*functions are resuable sets of code statements
+togeather they preform a spisific task, proces, or routine*/
+
+//console.log is a built in function
+console.log("we just used a function");
+
+//magic function
+function potionRecipie () {
+    console.log("tail of newt");
+    console.log("horn of dear");
+    console.log("fur of racoon")
+}
+
+//call function
+potionRecipie();
